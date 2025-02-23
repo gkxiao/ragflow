@@ -7,7 +7,7 @@
 </ol>
 <h2 id="docker">Ubunut 24.LST docker的升级</h2>
 
- -第一次在Ubuntu 24 LST/Docker 24.0安装RAGFLOW失败，发现需要更新的版本，因此进行升级，步骤如下：
+<p>第一次在Ubuntu 24 LST/Docker 24.0安装RAGFLOW失败，发现需要更新的版本，因此进行升级，步骤如下：</p>
 
 **步骤1：更新系统包**
 ```bash
