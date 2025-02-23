@@ -72,6 +72,7 @@ git clone https://github.com/infiniflow/ragflow
 **步骤2. 设置镜像**
 
 <p>修改ragflow/docker目录里.evn, docker-compose-base.yml, docker-compose.yml相关镜像设置，直接从我这个仓库下载题换即可。</p>
+
 ```bash
 docker
 ├── docker-compose-base.yml
