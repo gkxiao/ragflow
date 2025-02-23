@@ -6,7 +6,8 @@
    <li>确保用户加入docker群（group）并生效</li>
 </ol>
 <h2 id="docker">Ubunut 24.LST docker的升级</h2>
-在Ubuntu 24 LST上安装Docker的步骤如下：
+
+ -第一次在Ubuntu 24 LST/Docker 24.0安装RAGFLOW失败，发现需要更新的版本，因此进行升级，步骤如下：
 
 **步骤1：更新系统包**
 ```bash
