@@ -61,6 +61,7 @@ sudo curl -L "https://github.com/docker/compose/releases/download/v2.33.1/docker
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
+
 <h2 id="ragflow">RAGFLOW的安装</h2>
 
 **步骤1. 下载ragflow**
@@ -70,7 +71,7 @@ git clone https://github.com/infiniflow/ragflow
 
 **步骤2. 设置镜像**
 
- - 修改ragflow/docker目录里.evn, docker-compose-base.yml, docker-compose.yml相关镜像设置，直接从我这个仓库下载题换即可。
+<p>修改ragflow/docker目录里.evn, docker-compose-base.yml, docker-compose.yml相关镜像设置，直接从我这个仓库下载题换即可。</p>
 ```bash
 docker
 ├── docker-compose-base.yml
@@ -87,7 +88,7 @@ docker
 docker compose -f docker/docker-compose.yml up -d
 ```
 
-- 如果出现权限问题，比如：
+<p>如果出现权限问题，比如：</p>
   
 ```bash
 WARN[0000] The "MACOS" variable is not set. Defaulting to a blank string. 
@@ -95,7 +96,7 @@ unable to get image 'swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/mysql:8.
 exit status 1
 ```
 
- - 则请用sudo权限拉取：
+<p>则请用sudo权限拉取：</p>
 
 ```bash
 sudo docker compose -f docker/docker-compose.yml up -d
