@@ -97,8 +97,5 @@ unable to get image 'swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/mysql:8.
 exit status 1
 ```
 
-<p>则请用sudo权限拉取：</p>
+<p>则请确保用户已经加入docker群组，方法见上一节的“赋予非root用户权限“。</p>
 
-```bash
-sudo docker compose -f docker/docker-compose.yml up -d
-```
