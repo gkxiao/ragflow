@@ -158,7 +158,7 @@ docker logs -f ragflow-server
 
 **步骤5. 配置模型**
 
-<p>需要注意的是，docker配置模型的URL：</p>
+<p>需要注意的是，docker配置ollama模型的URL：</p>
 
 ```bash
 http://host.docker.internal:11434
