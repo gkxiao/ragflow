@@ -3,6 +3,7 @@
 <ol>
    <li>Ubunut 24.LST docker的升级</li>
    <li>infiniflow/ragflow的安装</li>
+   <li>确保用户加入docker群（group）并生效</li>
 </ol>
 <h2 id="docker">Ubunut 24.LST docker的升级</h2>
 在Ubuntu 24 LST上安装Docker的步骤如下：
