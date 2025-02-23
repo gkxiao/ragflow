@@ -102,5 +102,6 @@ exit status 1
 <p>则请确保用户已经加入docker群组，方法见上一节的“赋予非root用户权限“。</p>
 
 <h2 id="image">Docker镜像搜索</h2>
-https://docker.aityp.com/
-https://docker.aityp.com/image/docker.io/infiniflow/ragflow:latest
+<p>https://docker.aityp.com/</p>
+<p>比如：</p>
+<p>https://docker.aityp.com/image/docker.io/infiniflow/ragflow:latest</p>
