@@ -156,6 +156,13 @@ docker logs -f ragflow-server
 
 ```
 
+**步骤5. 配置模型**
+
+<p>需要注意的是，docker配置模型的URL：</p>
+
+```bash
+http://host.docker.internal:11434
+```
 
 <h2 id="image">Docker镜像搜索</h2>
 <p>https://docker.aityp.com/</p>
