@@ -38,7 +38,7 @@ sudo docker run hello-world
 ```
 若输出类似`Hello from Docker!`即表示安装成功。
 
-**可选优化配置：**
+**优化配置：**
 1. **配置Docker镜像加速（可选）**
 ```bash
 sudo mkdir -p /etc/docker
