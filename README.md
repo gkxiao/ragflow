@@ -62,11 +62,14 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```
 
 <h2 id="ragflow">RAGFLOW的安装</h2>
+
 **步骤1. 拉取ragflow**
 ```bash
 git clone https://github.com/infiniflow/ragflow
 ```
+
 **步骤2. 设置镜像**
+
 - 修改ragflow/docker目录里.evn, docker-compose-base.yml, docker-compose.yml相关镜像设置，直接从我这个仓库下载题换即可。
 ```bash
 docker
@@ -77,17 +80,23 @@ docker
 ├── .env
 └── .env.bak
 ```
+
 **步骤3. 拉取docker镜像**
+
 ```bash
 docker compose -f docker/docker-compose.yml up -d
 ```
+
 - 如果出现权限问题，比如：
+  
 ```bash
 WARN[0000] The "MACOS" variable is not set. Defaulting to a blank string. 
 unable to get image 'swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/mysql:8.0.39': permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.47/images/swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/mysql:8.0.39/json": dial unix /var/run/docker.sock: connect: permission denied
 exit status 1
 ```
+
 - 则请用sudo权限拉取：
+
 ```bash
 sudo docker compose -f docker/docker-compose.yml up -d
 ```
